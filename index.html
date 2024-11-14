@@ -71,6 +71,7 @@
 
         .firstclass>div {
             width: 30%;
+            margin:130px 0px;
         }
 
         .leftsection {
@@ -88,6 +89,9 @@
         .purple {
             color: rgb(219, 234, 134);
         }
+        .text-grey{
+            color: grey;
+        }
 
         #element {
             color: rgb(219, 234, 134);
@@ -95,6 +99,55 @@
         .left span{
             color: rgb(219, 234, 134);
         }
+        .second{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh;
+        }
+        main hr{
+            border:none;
+            background: rgb(219, 234, 134); 
+            height:0.2px;
+            margin:40px 84px;
+        }
+        .second h1{
+            font-size:1.9rem;
+            
+        }
+        .second .box{
+            background: rgb(219, 234, 134);
+            width:76vw;
+            height:2px;
+            margin:56px 0;
+            display:flex;
+            
+        }
+        .second .vertical{
+            background: rgb(219, 234, 134);
+            height:93px;
+            width:1px;
+            margin:0 120px; 
+        }
+        .image-top{
+            width:27px;
+            position:relative;
+            top:-32px;
+            left:-9px;
+        }
+        .vertical-title{
+            position:relative;
+            top:75px;
+            width:150px;
+
+        }
+        .vertical-desc{
+            position:relative;
+            top:80px;
+            color:grey;
+            font-size:9px;
+            width:150px;
+        }
+        
     </style>
 </head>
 
@@ -122,8 +175,50 @@
 
                 <!-- Element to contain animated typing -->
                 <span id="element"></span>
+
             </div>
             <div class="rightsection"><img src="dev.png" alt=""></div>
+        </section>
+        <hr>
+        <br>
+        <section class="second">
+            <span class="text-grey">What have i done so far</span>
+            <h1>Work Experiences:</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="drdo.png" alt="image" class="image-top">
+                    <div class="vertical-title">
+                        Internship @ Integrated Test Range (ITR), DRDO (june'24 - july'24)
+                    </div>
+                    <div class="vertical-desc">
+                     - Learned intuitive web application to visualize management activities, improving the  accessibility of that has been adopted by various departments, driving crossfunctional  collaboration and informed strategic planning.
+                     - Contributed in the front-end domain in designing the “Telephone Management System” Interface.
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img src="octanet.png" alt="image" class="image-top">
+                    <div class="vertical-title">
+                        Internship @ Octanet Pvt. Ltd (july'24 - september'24)
+                    </div>
+                    <div class="vertical-desc">
+                        -	Contributed to the design and development of a functional ATM machine showing its    functionality by using the JAVA programming using the oops concepts.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="g.png" alt="image" class="image-top">
+                    <div class="vertical-title">
+                        Internship @ Octanet Pvt. Ltd (july'24 - september'24)
+                    </div>
+                    <div class="vertical-desc">
+                        -	Contributed to the design and development of a functional ATM machine showing its    functionality by using the JAVA programming using the oops concepts.
+                    </div>
+                </div>
+                
+                
+                <div class="vertical"></div>
+                
+            </div>
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -131,7 +226,7 @@
     <script>
         var typed = new Typed('#element', {
             strings: ['Coder', '#Web Developer'],
-            typeSpeed: 50,
+            typeSpeed: 50 ,
         });
     </script>
 </body>
