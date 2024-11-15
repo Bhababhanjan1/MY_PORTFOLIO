@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="portfolio.css">
+  
     <style>
         * {
             margin: 0;
@@ -71,7 +71,7 @@
 
         .firstclass>div {
             width: 30%;
-            margin:130px 0px;
+            margin:50px 0px;
         }
 
         .leftsection {
@@ -108,7 +108,7 @@
             border:none;
             background: rgb(219, 234, 134); 
             height:0.2px;
-            margin:40px 84px;
+            margin:100px 84px;
         }
         .second h1{
             font-size:1.9rem;
@@ -138,6 +138,7 @@
             position:relative;
             top:75px;
             width:150px;
+            font-size: 14px;
 
         }
         .vertical-desc{
@@ -146,6 +147,42 @@
             color:grey;
             font-size:9px;
             width:150px;
+        }
+        footer{
+            background-color: rgb(18, 18, 62);
+            height:200px;
+        }
+        .footer{
+            display:flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+            
+        }
+        .footer>div{
+            width:180px;
+        }
+        footer .footer-rights{
+           text-align: center;
+           color: grey;
+           padding:12px 0;
+        }
+        .buttons .btn{
+            padding:12px;
+            background-color: rgb(18, 18, 62);
+            border-radius:10px;
+            position:relative;
+            top:30px;
+            border:0.2px solid rgb(219, 234, 134);
+            cursor: pointer;
+            
+        }
+       
+        .btn a{
+            text-decoration: none;
+            color: rgb(231, 29, 86);
         }
         
     </style>
@@ -171,11 +208,12 @@
 
             <div class="leftsection">Hi my name is <div class="purple">Bhababhanjan</div>
                 <div>and I am a Passionate</div>
-
-
                 <!-- Element to contain animated typing -->
                 <span id="element"></span>
-
+                <div class="buttons">
+                    <button class="btn"><a href="RESUME (2).pdf">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Bhababhanjan1" target="main">Github</a></button>
+                </div>
             </div>
             <div class="rightsection"><img src="dev.png" alt=""></div>
         </section>
@@ -188,7 +226,7 @@
                 <div class="vertical">
                     <img src="drdo.png" alt="image" class="image-top">
                     <div class="vertical-title">
-                        Internship @ Integrated Test Range (ITR), DRDO (june'24 - july'24)
+                        Internship | Integrated Test Range (ITR), DRDO (june'24 - july'24)
                     </div>
                     <div class="vertical-desc">
                      - Learned intuitive web application to visualize management activities, improving the  accessibility of that has been adopted by various departments, driving crossfunctional  collaboration and informed strategic planning.
@@ -199,28 +237,69 @@
                 <div class="vertical">
                     <img src="octanet.png" alt="image" class="image-top">
                     <div class="vertical-title">
-                        Internship @ Octanet Pvt. Ltd (july'24 - september'24)
+                        Internship | Octanet Pvt. Ltd (july'24 - september'24)
                     </div>
                     <div class="vertical-desc">
                         -	Contributed to the design and development of a functional ATM machine showing its    functionality by using the JAVA programming using the oops concepts.
                     </div>
                 </div>
                 <div class="vertical">
-                    <img src="g.png" alt="image" class="image-top">
+                    <img src="google.png" alt="image" class="image-top">
                     <div class="vertical-title">
-                        Internship @ Octanet Pvt. Ltd (july'24 - september'24)
+                        Member | Google Cloud Skills Boost (Student Facilitator) (May'24 - Present)                       
                     </div>
                     <div class="vertical-desc">
-                        -	Contributed to the design and development of a functional ATM machine showing its    functionality by using the JAVA programming using the oops concepts.
+                        -	Developed an in-depth understanding of Google Cloud tools (Compute Engine, Kubernetes Engine, Big Query, Cloud Functions, etc.) and their application in real-world scenarios.
                     </div>
                 </div>
-                
-                
-                <div class="vertical"></div>
-                
-            </div>
+                <div class="vertical">
+                    <img src="Google_Summer_of_Code_sun_logo_2022.svg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Contributor | Google Summer of Code (GSoc) (October'24 - November'24)                        
+                    </div>
+                    <div class="vertical-desc">
+                       
+                    </div>
+               
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">
+                <h3>Bhababhanjan's Developer Portfolio</h3>
+            </div>
+            <div class="second-footer">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>EXPERIENCE</li>
+                    <li>CONTACT</li>
+                   
+                </ul>
+            </div>
+            <div class="third-footer">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>EXPERIENCE</li>
+                    <li>CONTACT</li>
+                   
+                </ul>
+            </div>
+            <div class="fourth-footer">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>EXPERIENCE</li>
+                    <li>CONTACT</li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright © bhababhanjansportfolio.com | All rights reserved 
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
